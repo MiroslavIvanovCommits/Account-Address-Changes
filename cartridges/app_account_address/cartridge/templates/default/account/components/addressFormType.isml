@@ -1,0 +1,11 @@
+<div class="address-type-wrapper mb-5 border-bottom">
+    <input class="js-address-radion-button" type="radio" id="privateAddress" name="pravateAddress" value="Private Address" checked>
+    <label for="privateAddress">
+        ${Resource.msg('label.name.private.address', 'forms', null)}
+    </label>
+
+    <input  class="js-address-radion-button ml-5" type="radio" id="businessAddress" name="pravateAddress" value="Business Address" class="ml-5">
+    <label for="businessAddress">
+        ${Resource.msg('label.name.business.address', 'forms', null)}
+    </label>
+</div>

@@ -1,0 +1,27 @@
+<div class="row js-business-address-form d-none">
+    <!-- Company Name -->
+    <div class="col-6">
+        <div class="form-group
+                ${pdict.addressForm.companyName.mandatory === true ? 'required' : ''}">
+            <label class="form-control-label" for="companyName">
+                <isprint value="${pdict.addressForm.companyName.label}" encoding="htmlcontent" />
+            </label>
+            <input type="text" class="form-control" id="companyName" <isprint
+                value="${pdict.addressForm.companyName.attributes}" encoding="off" />>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+
+    <!-- VAT -->
+    <div class="col-6">
+        <div class="form-group
+                ${pdict.addressForm.vat.mandatory === true ? 'required' : ''}">
+            <label class="form-control-label" for="vat">
+                <isprint value="${pdict.addressForm.vat.label}" encoding="htmlcontent" />
+            </label>
+            <input type="text" class="form-control" id="vat" <isprint value="${pdict.addressForm.vat.attributes}"
+                encoding="off" />>
+            <div class="invalid-feedback"></div>
+        </div>
+    </div>
+</div>
